@@ -22,7 +22,13 @@ export default function Login() {
       </div>
 
       <div className="m-5 flex h-96 w-full flex-col items-center justify-center p-5">
-        <Input></Input>
+        <Input
+          label="Username"
+          type="email"
+          placeholder="email@email.com.br"
+        ></Input>
+
+        <Input label="Password"></Input>
       </div>
     </div>
   )
